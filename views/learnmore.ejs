@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>iPhone 15 Pro Max - Know More</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-image: url('/images/wal.jpg');
+
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .hero {
+      background-image: url('/images/wal.jpg'); /* update your image path */
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .feature-box {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+      height: 100%;
+    }
+    .feature-box i {
+      font-size: 2rem;
+      color: #0d6efd;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <%- include('partials/navbar') %>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Explore iPhone 15 Pro Max</h1>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="section-title">Top Features</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-box text-center">
+            <i class="fa-solid fa-microchip"></i>
+            <h5 class="mt-2">A17 Pro Chip</h5>
+            <p>Lightning-fast performance for everything from gaming to editing.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box text-center">
+            <i class="fa-solid fa-camera"></i>
+            <h5 class="mt-2">Pro Camera System</h5>
+            <p>Capture life in stunning detail with a 48MP main camera and 5x zoom.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-box text-center">
+            <i class="fa-solid fa-bolt"></i>
+            <h5 class="mt-2">All-Day Battery</h5>
+            <p>Lasts longer and charges faster with USB-C support.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="text-center py-5">
+    <a href="/" class="btn btn-outline-light btn-lg mx-2">Back to Home</a>
+    <a href="#" class="btn btn-primary btn-lg mx-2">Buy Now</a>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
